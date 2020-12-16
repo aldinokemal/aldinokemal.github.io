@@ -8,7 +8,7 @@ self.addEventListener("install", (event) => {
         .then((cache) => {
             console.log('mulai caching');
             return cache.addAll([
-                '/swlab.html',
+                '/index.html',
                 '/sw.js'
             ]);
         })
